@@ -1,0 +1,28 @@
+.font-1 {
+    font-family: Poppins !important;
+}
+
+* {
+    margin: auto;
+}
+
+body {
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4776E6), to(#8E54E9)) fixed;
+}
+
+.card {
+    background-color: #fcfcfc;
+    border: none;
+    height: 700px;
+    margin-top: 150px;
+}
+
+.btn {
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    border: none;
+}
